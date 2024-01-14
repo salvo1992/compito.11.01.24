@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">  
+
+  
+</head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader" _msthidden="6">
+        <div class="container" _msthidden="6">
+          <div class="row" _msthidden="6">
+            <div class="col-sm-8 col-md-7 py-4" _msthidden="2">
+              <h4 class="text-white" _msttexthash="60892" _msthidden="1" _msthash="1">About</h4>
+              <p class="text-muted" _msttexthash="29573219" _msthidden="1" _msthash="2">
+                Add some information about the album below, the author, or any
+                other background context. Make it a few sentences long so folks
+                can pick up some informative tidbits. Then, link them off to
+                some social networking sites or contact information.
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4" _msthidden="4">
+              <h4 class="text-white" _msttexthash="94510" _msthidden="1" _msthash="3">Contact</h4>
+              <ul class="list-unstyled" _msthidden="3">
+                <li _msthidden="1"><a href="#" class="text-white" _msttexthash="295321" _msthidden="1" _msthash="4">Follow on Twitter</a></li>
+                <li _msthidden="1"><a href="#" class="text-white" _msttexthash="249184" _msthidden="1" _msthash="5">Like on Facebook</a></li>
+                <li _msthidden="1"><a href="#" class="text-white" _msttexthash="92131" _msthidden="1" _msthash="6">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+            <strong _msttexthash="59410" _msthash="7">Album</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Attiva/disattiva navigazione" _mstaria-label="320099" _msthash="8">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 _msttexthash="258271" _msthash="9">Esempio di album</h1>
+          <p class="lead text-muted" _msttexthash="15985398" _msthash="10"> Qualcosa di breve e importante sulla raccolta qui sotto: il suo contenuto,
+ il creatore, ecc. Rendilo corto e dolce, ma non troppo corto in modo da
+ La gente non lo salta del tutto. </p>
+          <p>
+            <button class="btn btn-primary my-2" onclick="fetchPhoto('cats')" _msttexthash="181610" _msthash="11">
+              Foto di gatti
+            </button>
+            <button class="btn btn-secondary my-2" onclick="fetchPhoto('dogs')" _msttexthash="154271" _msthash="12">Foto di cani</button>
+          </p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row"></div>
+        </div>
+      </div>
+    </main>
+
+
+
+
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#" _msttexthash="279799" _msthash="13">Torna all'inizio</a>
+        </p>
+        <p _msttexthash="3282201" _msthash="14"> L'esempio dell'album è © Bootstrap, ma scaricalo e personalizzalo
+ per te! </p>
+        <p _msttexthash="3763045" _msthash="15"> Non conosci Bootstrap? <a href="/" _istranslated="1">Visita la homepage</a> o leggi la nostra <a href="../getting-started/introduction/" _istranslated="1">guida introduttiva</a>. </p>
+      </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+   </body>
+</html>
