@@ -1,4 +1,4 @@
- /*import * as component from "./components";*/ 
+/* import * as component from "./components"; */
 
 const url = "https://api.pexels.com/v1/search?query=";
 
